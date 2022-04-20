@@ -95,9 +95,20 @@
 
 //Record
 
-let person: Record<number, string> = {
-  1: "sakkthi",
-  2: "muthu",
-  3: "thiru",
+// let person: Record<number, string> = {
+//   1: "sakkthi",
+//   2: "muthu",
+//   3: "thiru",
+// };
+// console.log(person);
+
+//omit
+interface person {
+  name: string;
+  age: number;
+  location?: string;
+}
+const people: Omit<person, "age" | "location"> = {
+  name: "sakthi",
 };
-console.log(person);
+console.log(people);
