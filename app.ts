@@ -18,3 +18,8 @@ console.log(myset);
 //check  the value present or not
 
 console.log(myset.has(3));
+
+//delete a value from set
+
+myset.delete(3);
+console.log(myset);
