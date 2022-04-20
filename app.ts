@@ -1,6 +1,7 @@
 //sets
 let myset = new Set([1, 2, 3, 4, 4, 4]);
 
+//return the size of set
 console.log(myset.size);
 
 //return set data
