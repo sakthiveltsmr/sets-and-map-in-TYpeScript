@@ -100,3 +100,4 @@ let person: Record<number, string> = {
   2: "muthu",
   3: "thiru",
 };
+console.log(person);
