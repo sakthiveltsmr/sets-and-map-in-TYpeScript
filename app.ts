@@ -79,3 +79,16 @@
 //   x: 33,
 // };
 // console.log(mytotal);
+
+//Required
+
+interface mark {
+  x: number;
+  y: number;
+}
+let total: Required<mark> = {
+  x: 10,
+  y: 20,
+};
+
+console.log(total);
