@@ -129,3 +129,14 @@
 // const value: Exclude<Primitive, string> = true;
 
 // console.log(value);
+
+//return type
+type demo = () => {
+  x: Number;
+  y: Number;
+};
+const number: ReturnType<demo> = {
+  x: 10,
+  y: 22,
+};
+console.log(number);
