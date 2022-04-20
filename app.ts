@@ -1,32 +1,32 @@
-// //sets
-// let myset = new Set([1, 2, 3, 4, 4, 4]);
+//sets
+let myset = new Set([1, 2, 3, 4, 4, 4]);
 
-// //return the size of set
-// console.log(myset.size);
+//return the size of set
+console.log(myset.size);
 
-// //return set data
+//return set data
 
-// console.log(myset);
+console.log(myset);
 
-// //add the set data
+//add the set data
 
-// myset.add(10);
-// myset.add(12);
+myset.add(10);
+myset.add(12);
 
-// console.log(myset);
+console.log(myset);
 
-// //check  the value present or not
+//check  the value present or not
 
-// console.log(myset.has(3));
+console.log(myset.has(3));
 
-// //delete a value from set
+//delete a value from set
 
-// myset.delete(3);
-// console.log(myset);
+myset.delete(3);
+console.log(myset);
 
-// //clear whole set
-// myset.clear();
-// console.log(myset);
+//clear whole set
+myset.clear();
+console.log(myset);
 
 //map
 
