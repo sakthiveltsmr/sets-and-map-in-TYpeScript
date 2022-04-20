@@ -82,13 +82,21 @@
 
 //Required
 
-interface mark {
-  x: number;
-  y: number;
-}
-let total: Required<mark> = {
-  x: 10,
-  y: 20,
-};
+// interface mark {
+//   x: number;
+//   y: number;
+// }
+// let total: Required<mark> = {
+//   x: 10,
+//   y: 20,
+// };
 
-console.log(total);
+// console.log(total);
+
+//Record
+
+let person: Record<number, string> = {
+  1: "sakkthi",
+  2: "muthu",
+  3: "thiru",
+};
