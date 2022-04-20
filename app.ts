@@ -60,9 +60,22 @@
 
 //for each
 
-var number = [1, 2, 3, 4];
-number.forEach(arrayFunction);
+// var number = [1, 2, 3, 4];
+// number.forEach(arrayFunction);
 
-function arrayFunction(element,index,array) {
-  console.log("arr["+index"]="+element);
-}
+// function arrayFunction(element,index,array) {
+//   console.log("arr["+index"]="+element);
+// }
+
+//utility Types
+
+// partial
+// interface mark {
+//   x: number;
+//   y: number;
+// }
+
+// let mytotal: Partial<mark> = {
+//   x: 33,
+// };
+// console.log(mytotal);
