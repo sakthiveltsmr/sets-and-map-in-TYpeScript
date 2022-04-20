@@ -1,7 +1,7 @@
 // //sets
 // let myset = new Set([1, 2, 3, 4, 4, 4]);
-var number = {
+var point = {
     x: 10,
-    y: 22
+    y: 20
 };
-console.log(number);
+console.log(point);

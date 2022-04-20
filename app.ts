@@ -131,12 +131,20 @@
 // console.log(value);
 
 //return type
-type demo = () => {
-  x: Number;
-  y: Number;
-};
-const number: ReturnType<demo> = {
+// type demo = () => {
+//   x: Number;
+//   y: Number;
+// };
+// const number: ReturnType<demo> = {
+//   x: 10,
+//   y: 22,
+// };
+// console.log(number);
+
+//Parameters
+type Demo = (p: { x: number; y: number }) => void;
+const point: Parameters<Demo>[0] = {
   x: 10,
-  y: 22,
+  y: 20,
 };
-console.log(number);
+console.log(point);
