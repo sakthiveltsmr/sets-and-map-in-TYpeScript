@@ -102,13 +102,23 @@
 // };
 // console.log(person);
 
-//omit
-interface person {
-  name: string;
-  age: number;
-  location?: string;
-}
-const people: Omit<person, "age" | "location"> = {
-  name: "sakthi",
-};
-console.log(people);
+//Omit
+// interface person {
+//   name: string;
+//   age: number;
+//   location?: string;
+// }
+// const people: Omit<person, "age" | "location"> = {
+//   name: "sakthi",
+// };
+// console.log(people);
+
+// Pick
+// interface Person {
+//   name: string;
+//   age: number;
+// }
+// const bob: Pick<Person, "name"> = {
+//   name: "sanjith",
+// };
+// console.log(bob);
