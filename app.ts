@@ -1,59 +1,68 @@
-//sets
-let myset = new Set([1, 2, 3, 4, 4, 4]);
+// //sets
+// let myset = new Set([1, 2, 3, 4, 4, 4]);
 
-//return the size of set
-console.log(myset.size);
+// //return the size of set
+// console.log(myset.size);
 
-//return set data
+// //return set data
 
-console.log(myset);
+// console.log(myset);
 
-//add the set data
+// //add the set data
 
-myset.add(10);
-myset.add(12);
+// myset.add(10);
+// myset.add(12);
 
-console.log(myset);
+// console.log(myset);
 
-//check  the value present or not
+// //check  the value present or not
 
-console.log(myset.has(3));
+// console.log(myset.has(3));
 
-//delete a value from set
+// //delete a value from set
 
-myset.delete(3);
-console.log(myset);
+// myset.delete(3);
+// console.log(myset);
 
-//clear whole set
-myset.clear();
-console.log(myset);
+// //clear whole set
+// myset.clear();
+// console.log(myset);
 
-//map
+// //map
 
-//create map
+// //create map
 
-var map = new Map();
+// var map = new Map();
 
-//add the data from map
+// //add the data from map
 
-map.set(1, "sakthi");
-map.set(2, "muthu");
-map.set(3, "sadheesh");
+// map.set(1, "sakthi");
+// map.set(2, "muthu");
+// map.set(3, "sadheesh");
 
-console.log(map);
+// console.log(map);
 
-//get the key value
+// //get the key value
 
-console.log(map.get(1));
+// console.log(map.get(1));
 
-//check the key availale or not
+// //check the key availale or not
 
-console.log(map.has(1));
+// console.log(map.has(1));
 
-//find map size
+// //find map size
 
-console.log(map.size);
+// console.log(map.size);
 
-//delete the value
-map.delete(3);
-console.log(map);
+// //delete the value
+// map.delete(3);
+// console.log(map);
+
+//for each
+
+var number = [1, 2, 3, 4];
+number.forEach(arrayFunction);
+
+function arrayFunction(element,index,array) {
+  console.log("arr["+index"]="+element);
+}
