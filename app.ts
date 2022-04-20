@@ -13,3 +13,7 @@ myset.add(10);
 myset.add(12);
 
 console.log(myset);
+
+//check  the value present or not
+
+console.log(myset.has(3));
