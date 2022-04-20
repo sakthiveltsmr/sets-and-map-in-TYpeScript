@@ -23,3 +23,7 @@ console.log(myset.has(3));
 
 myset.delete(3);
 console.log(myset);
+
+//clear whole set
+myset.clear();
+console.log(myset);

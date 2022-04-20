@@ -11,5 +11,8 @@ console.log(myset);
 //check  the value present or not
 console.log(myset.has(3));
 //delete a value from set
-console.log(myset["delete"](3));
+myset["delete"](3);
+console.log(myset);
+//clear whole set
+myset.clear();
 console.log(myset);
